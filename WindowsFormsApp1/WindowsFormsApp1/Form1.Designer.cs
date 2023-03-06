@@ -29,13 +29,34 @@ namespace WindowsFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.DarkSoul = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // DarkSoul
+            // 
+            this.DarkSoul.Font = new System.Drawing.Font("微軟正黑體", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.DarkSoul.Location = new System.Drawing.Point(36, 34);
+            this.DarkSoul.Name = "DarkSoul";
+            this.DarkSoul.Size = new System.Drawing.Size(245, 62);
+            this.DarkSoul.TabIndex = 0;
+            this.DarkSoul.Text = "DarkSoul";
+            this.DarkSoul.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.DarkSoul);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label DarkSoul;
     }
 }
 
