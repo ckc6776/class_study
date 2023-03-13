@@ -21,5 +21,12 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //MessageBox.Show("你按了按鈕");
+            Form Form_button = new Form_button();
+            Form_button.Show();
+        }
     }
 }
