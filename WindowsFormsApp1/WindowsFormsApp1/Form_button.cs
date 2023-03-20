@@ -16,5 +16,14 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            if (button1.Text == "你按了按鈕")
+               button1.Text = "你有按按鈕";
+            else if   (button1.Text == "你有按按鈕")
+               button1.Text = "你按了按鈕";
+        }
     }
 }
