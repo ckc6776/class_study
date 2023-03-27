@@ -32,6 +32,7 @@ namespace WindowsFormsApp1
             this.DarkSoul = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button0320 = new System.Windows.Forms.Button();
+            this.button0327 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DarkSoul
@@ -64,16 +65,28 @@ namespace WindowsFormsApp1
             this.button0320.UseVisualStyleBackColor = true;
             this.button0320.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button0327
+            // 
+            this.button0327.Location = new System.Drawing.Point(323, 115);
+            this.button0327.Name = "button0327";
+            this.button0327.Size = new System.Drawing.Size(92, 43);
+            this.button0327.TabIndex = 3;
+            this.button0327.Text = "button0327";
+            this.button0327.UseVisualStyleBackColor = true;
+            this.button0327.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button0327);
             this.Controls.Add(this.button0320);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.DarkSoul);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.button1_Click);
             this.ResumeLayout(false);
 
         }
@@ -83,6 +96,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label DarkSoul;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button0320;
+        private System.Windows.Forms.Button button0327;
     }
 }
 
