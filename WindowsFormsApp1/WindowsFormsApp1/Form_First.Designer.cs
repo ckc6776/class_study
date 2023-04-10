@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp1
 {
-    partial class Form1
+    partial class Form_First
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -33,6 +33,7 @@ namespace WindowsFormsApp1
             this.button1 = new System.Windows.Forms.Button();
             this.button0320 = new System.Windows.Forms.Button();
             this.button0327 = new System.Windows.Forms.Button();
+            this.button_TextBox = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DarkSoul
@@ -75,17 +76,28 @@ namespace WindowsFormsApp1
             this.button0327.UseVisualStyleBackColor = true;
             this.button0327.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // button_TextBox
+            // 
+            this.button_TextBox.Location = new System.Drawing.Point(447, 115);
+            this.button_TextBox.Name = "button_TextBox";
+            this.button_TextBox.Size = new System.Drawing.Size(102, 44);
+            this.button_TextBox.TabIndex = 4;
+            this.button_TextBox.Text = "button0410";
+            this.button_TextBox.UseVisualStyleBackColor = true;
+            this.button_TextBox.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // Form_First
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button_TextBox);
             this.Controls.Add(this.button0327);
             this.Controls.Add(this.button0320);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.DarkSoul);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Form_First";
+            this.Text = "Form_First";
             this.Load += new System.EventHandler(this.button1_Click);
             this.ResumeLayout(false);
 
@@ -97,6 +109,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button0320;
         private System.Windows.Forms.Button button0327;
+        private System.Windows.Forms.Button button_TextBox;
     }
 }
 

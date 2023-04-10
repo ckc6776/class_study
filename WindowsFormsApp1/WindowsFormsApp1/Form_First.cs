@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Form_First : Form
     {
-        public Form1()
+        public Form_First()
         {
             InitializeComponent();
         }
@@ -24,9 +24,15 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("你按了按鈕");
+            
             Form Form_button = new Form_button();
             Form_button.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form Form_TextBox = new Form_TextBox();
+            Form_TextBox.Show();
         }
     }
 }
