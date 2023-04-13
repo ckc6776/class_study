@@ -58,6 +58,21 @@ namespace WindowsFormsApp1
             button4.Size = new Size(button4.Width + sizeNum, button4.Height + sizeNum);
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string temp = label2.Text;
+            int count = 1;
+            try
+            {
+                count = Int32.Parse(temp) - 1;
+            }
+            catch (Exception e1)
+            {
+                //label2.Text="0";
+            }
+            //label2.Text=count+"";
+            label2.Text = count.ToString();
 
+        }
     }   
 }
