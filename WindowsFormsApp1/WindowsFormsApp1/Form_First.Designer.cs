@@ -34,6 +34,7 @@ namespace WindowsFormsApp1
             this.button0320 = new System.Windows.Forms.Button();
             this.button0327 = new System.Windows.Forms.Button();
             this.button_TextBox = new System.Windows.Forms.Button();
+            this.button0417 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DarkSoul
@@ -86,11 +87,22 @@ namespace WindowsFormsApp1
             this.button_TextBox.UseVisualStyleBackColor = true;
             this.button_TextBox.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button0417
+            // 
+            this.button0417.Location = new System.Drawing.Point(60, 203);
+            this.button0417.Name = "button0417";
+            this.button0417.Size = new System.Drawing.Size(234, 42);
+            this.button0417.TabIndex = 5;
+            this.button0417.Text = "期中考0417-攝氏轉華氏";
+            this.button0417.UseVisualStyleBackColor = true;
+            this.button0417.Click += new System.EventHandler(this.button2_Click_1);
+            // 
             // Form_First
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button0417);
             this.Controls.Add(this.button_TextBox);
             this.Controls.Add(this.button0327);
             this.Controls.Add(this.button0320);
@@ -110,6 +122,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button button0320;
         private System.Windows.Forms.Button button0327;
         private System.Windows.Forms.Button button_TextBox;
+        private System.Windows.Forms.Button button0417;
     }
 }
 

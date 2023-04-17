@@ -34,5 +34,11 @@ namespace WindowsFormsApp1
             Form Form_TextBox = new Form_TextBox();
             Form_TextBox.Show();
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Form MidTest_Form = new MidTest_Form();
+            MidTest_Form.Show();
+        }
     }
 }
