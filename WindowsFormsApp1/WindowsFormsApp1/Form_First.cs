@@ -40,5 +40,11 @@ namespace WindowsFormsApp1
             Form MidTest_Form = new MidTest_Form();
             MidTest_Form.Show();
         }
+
+        private void button2_Click_2(object sender, EventArgs e)
+        {
+            Form Form_0501 = new Form_0501();
+            Form_0501.Show();
+        }
     }
 }
