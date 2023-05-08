@@ -46,5 +46,12 @@ namespace WindowsFormsApp1
             Form Form_0501 = new Form_0501();
             Form_0501.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form Form_0508 = new Form_0508();
+            Form_0508
+                .Show();
+        }
     }
 }
