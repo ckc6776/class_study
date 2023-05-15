@@ -64,5 +64,11 @@ namespace WindowsFormsApp1
             Form Form_layout = new Form_layout();
             Form_layout.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form Form_homework3= new Form_homework3();
+            Form_homework3.Show();
+        }
     }
 }

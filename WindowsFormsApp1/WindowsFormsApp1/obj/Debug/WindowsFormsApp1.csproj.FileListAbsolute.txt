@@ -114,3 +114,4 @@ D:\N10310034\0515\class_study\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Window
 D:\N10310034\0515\class_study\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 D:\N10310034\0515\class_study\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_0515.resources
 D:\N10310034\0515\class_study\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_layout.resources
+D:\N10310034\0515\class_study\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_homework3.resources

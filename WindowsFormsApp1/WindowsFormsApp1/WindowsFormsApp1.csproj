@@ -64,6 +64,12 @@
     <Compile Include="Form_0501.Designer.cs">
       <DependentUpon>Form_0501.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_homework3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_homework3.Designer.cs">
+      <DependentUpon>Form_homework3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_layout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_button.resx">
       <DependentUpon>Form_button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_homework3.resx">
+      <DependentUpon>Form_homework3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_layout.resx">
       <DependentUpon>Form_layout.cs</DependentUpon>
