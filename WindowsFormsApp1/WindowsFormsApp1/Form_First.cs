@@ -50,8 +50,19 @@ namespace WindowsFormsApp1
         private void button3_Click(object sender, EventArgs e)
         {
             Form Form_0508 = new Form_0508();
-            Form_0508
-                .Show();
+            Form_0508.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form Form_0515 = new Form_0515();
+            Form_0515.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form Form_layout = new Form_layout();
+            Form_layout.Show();
         }
     }
 }

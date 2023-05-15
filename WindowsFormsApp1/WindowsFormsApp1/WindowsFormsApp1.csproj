@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form_0515.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_0515.Designer.cs">
+      <DependentUpon>Form_0515.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_0508.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +63,12 @@
     </Compile>
     <Compile Include="Form_0501.Designer.cs">
       <DependentUpon>Form_0501.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_layout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_layout.Designer.cs">
+      <DependentUpon>Form_layout.cs</DependentUpon>
     </Compile>
     <Compile Include="MidTest_Form.cs">
       <SubType>Form</SubType>
@@ -90,11 +102,17 @@
     <EmbeddedResource Include="Form_0501.resx">
       <DependentUpon>Form_0501.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_0515.resx">
+      <DependentUpon>Form_0515.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_First.resx">
       <DependentUpon>Form_First.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_button.resx">
       <DependentUpon>Form_button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_layout.resx">
+      <DependentUpon>Form_layout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_TextBox.resx">
       <DependentUpon>Form_TextBox.cs</DependentUpon>
