@@ -115,6 +115,7 @@ namespace WindowsFormsApp1
             this.button2.TabIndex = 11;
             this.button2.Text = "計算";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label4
             // 
@@ -139,9 +140,9 @@ namespace WindowsFormsApp1
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(236, 143);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(11, 12);
+            this.label6.Size = new System.Drawing.Size(9, 12);
             this.label6.TabIndex = 8;
-            this.label6.Text = "+";
+            this.label6.Text = "-";
             // 
             // textBox3
             // 
@@ -165,6 +166,7 @@ namespace WindowsFormsApp1
             this.button3.TabIndex = 17;
             this.button3.Text = "計算";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label7
             // 
@@ -191,7 +193,7 @@ namespace WindowsFormsApp1
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(11, 12);
             this.label9.TabIndex = 14;
-            this.label9.Text = "+";
+            this.label9.Text = "*";
             // 
             // textBox5
             // 
@@ -215,6 +217,7 @@ namespace WindowsFormsApp1
             this.button4.TabIndex = 23;
             this.button4.Text = "計算";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label10
             // 
@@ -239,9 +242,9 @@ namespace WindowsFormsApp1
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(236, 247);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(11, 12);
+            this.label12.Size = new System.Drawing.Size(8, 12);
             this.label12.TabIndex = 20;
-            this.label12.Text = "+";
+            this.label12.Text = "/";
             // 
             // textBox7
             // 
