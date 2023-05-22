@@ -76,6 +76,12 @@
     <Compile Include="Form_layout.Designer.cs">
       <DependentUpon>Form_layout.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_panel.Designer.cs">
+      <DependentUpon>Form_panel.cs</DependentUpon>
+    </Compile>
     <Compile Include="MidTest_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_layout.resx">
       <DependentUpon>Form_layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_panel.resx">
+      <DependentUpon>Form_panel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_TextBox.resx">
       <DependentUpon>Form_TextBox.cs</DependentUpon>
