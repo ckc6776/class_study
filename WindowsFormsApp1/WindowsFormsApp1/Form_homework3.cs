@@ -13,16 +13,19 @@ namespace WindowsFormsApp1
     public partial class Form_homework3 : Form
     {
         int count1 = 0;
-        
+        int count2 = 0;
+
+
         public Form_homework3()
         {
             InitializeComponent();
             timer1.Start();
+            
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            label1.Text = String.Format("{0}秒",count1.ToString());
+            label1.Text = String.Format("{0}秒",count1++.ToString());
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -30,22 +33,36 @@ namespace WindowsFormsApp1
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+        private void Form_homework3_Load(object sender, EventArgs e)
         {
-            timer1.Enabled = true;
+
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void timer2_Tick(object sender, EventArgs e)
         {
-            timer1.Enabled = false;
+            label2.Text = String.Format("{0}秒", count2++.ToString());
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            timer1.Enabled = false;
-            count1 = 0;
-            label1.Text = "{0}秒";
-
+            timer2.Start();
+            timer2.Enabled = true;
+            label2.Text = String.Format("{0}秒", count2++.ToString());
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            timer2.Enabled = false;
+            label2.Text = String.Format("{0}秒", count2++.ToString());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            timer2.Enabled = false;
+            count2 = 0;
+            label2.Text = String.Format("{0}秒", count2++.ToString());
+        }
+
     }
 }
