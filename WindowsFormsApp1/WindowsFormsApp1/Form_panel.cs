@@ -82,8 +82,8 @@ namespace WindowsFormsApp1
                     }
                 }
             }
-
-            MessageBox.Show("主餐:"+ mainFood + "主食:" + mainMeal + "配菜:"+ sideDish + "點心:"+ dessert);
+            //Environment.NewLine可以替代\n
+            MessageBox.Show("主餐:"+ mainFood + "\n主食:" + mainMeal + "\n配菜:"+ sideDish + "\n點心:"+ dessert);
 
 
 
