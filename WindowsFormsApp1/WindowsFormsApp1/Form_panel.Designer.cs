@@ -30,36 +30,37 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.checkBox19 = new System.Windows.Forms.CheckBox();
+            this.checkBox18 = new System.Windows.Forms.CheckBox();
+            this.checkBox17 = new System.Windows.Forms.CheckBox();
+            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -77,32 +78,35 @@ namespace WindowsFormsApp1
             this.panel1.Size = new System.Drawing.Size(200, 450);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // checkBox6
             // 
-            this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.checkBox12);
-            this.panel2.Controls.Add(this.checkBox11);
-            this.panel2.Controls.Add(this.checkBox10);
-            this.panel2.Controls.Add(this.checkBox7);
-            this.panel2.Controls.Add(this.checkBox8);
-            this.panel2.Controls.Add(this.checkBox9);
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(200, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(600, 450);
-            this.panel2.TabIndex = 1;
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(12, 140);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(68, 16);
+            this.checkBox6.TabIndex = 1;
+            this.checkBox6.Text = "油麵(黃)";
+            this.checkBox6.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // checkBox5
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 12);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "主餐1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(12, 118);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(84, 16);
+            this.checkBox5.TabIndex = 2;
+            this.checkBox5.Text = "手工烏龍麵";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 12);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "主食2";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // checkBox1
             // 
@@ -124,16 +128,6 @@ namespace WindowsFormsApp1
             this.checkBox2.Text = "義大利麵(直面)";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 12);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "主食2";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
@@ -154,46 +148,115 @@ namespace WindowsFormsApp1
             this.checkBox4.Text = "刀削麵";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
-            // panel3
+            // panel2
             // 
-            this.panel3.Controls.Add(this.checkBox15);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.checkBox14);
-            this.panel3.Controls.Add(this.checkBox13);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(333, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(267, 450);
-            this.panel3.TabIndex = 3;
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.panel4);
+            this.panel2.Controls.Add(this.checkBox12);
+            this.panel2.Controls.Add(this.checkBox11);
+            this.panel2.Controls.Add(this.checkBox10);
+            this.panel2.Controls.Add(this.checkBox7);
+            this.panel2.Controls.Add(this.checkBox8);
+            this.panel2.Controls.Add(this.checkBox9);
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(200, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(600, 450);
+            this.panel2.TabIndex = 1;
             // 
-            // checkBox5
+            // panel4
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(12, 118);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(84, 16);
-            this.checkBox5.TabIndex = 2;
-            this.checkBox5.Text = "手工烏龍麵";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.panel4.Controls.Add(this.checkBox19);
+            this.panel4.Controls.Add(this.checkBox18);
+            this.panel4.Controls.Add(this.checkBox17);
+            this.panel4.Controls.Add(this.checkBox16);
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel4.Location = new System.Drawing.Point(0, 243);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(333, 207);
+            this.panel4.TabIndex = 11;
             // 
-            // checkBox6
+            // checkBox19
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(12, 140);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(68, 16);
-            this.checkBox6.TabIndex = 1;
-            this.checkBox6.Text = "油麵(黃)";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox19.AutoSize = true;
+            this.checkBox19.Location = new System.Drawing.Point(26, 104);
+            this.checkBox19.Name = "checkBox19";
+            this.checkBox19.Size = new System.Drawing.Size(84, 16);
+            this.checkBox19.TabIndex = 16;
+            this.checkBox19.Text = "熔岩巧克力";
+            this.checkBox19.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // checkBox18
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(24, 13);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 12);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "配菜3";
+            this.checkBox18.AutoSize = true;
+            this.checkBox18.Location = new System.Drawing.Point(26, 82);
+            this.checkBox18.Name = "checkBox18";
+            this.checkBox18.Size = new System.Drawing.Size(72, 16);
+            this.checkBox18.TabIndex = 15;
+            this.checkBox18.Text = "提拉米蘇";
+            this.checkBox18.UseVisualStyleBackColor = true;
+            // 
+            // checkBox17
+            // 
+            this.checkBox17.AutoSize = true;
+            this.checkBox17.Location = new System.Drawing.Point(26, 60);
+            this.checkBox17.Name = "checkBox17";
+            this.checkBox17.Size = new System.Drawing.Size(48, 16);
+            this.checkBox17.TabIndex = 14;
+            this.checkBox17.Text = "奶酪";
+            this.checkBox17.UseVisualStyleBackColor = true;
+            // 
+            // checkBox16
+            // 
+            this.checkBox16.AutoSize = true;
+            this.checkBox16.Location = new System.Drawing.Point(26, 38);
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Size = new System.Drawing.Size(48, 16);
+            this.checkBox16.TabIndex = 13;
+            this.checkBox16.Text = "布丁";
+            this.checkBox16.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 10);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 12);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "點心4";
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Location = new System.Drawing.Point(26, 140);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(60, 16);
+            this.checkBox12.TabIndex = 10;
+            this.checkBox12.Text = "火雞肉";
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // checkBox11
+            // 
+            this.checkBox11.AutoSize = true;
+            this.checkBox11.Location = new System.Drawing.Point(26, 118);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(48, 16);
+            this.checkBox11.TabIndex = 9;
+            this.checkBox11.Text = "鴨肉";
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Location = new System.Drawing.Point(26, 96);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(48, 16);
+            this.checkBox10.TabIndex = 8;
+            this.checkBox10.Text = "羊肉";
+            this.checkBox10.UseVisualStyleBackColor = true;
             // 
             // checkBox7
             // 
@@ -225,45 +288,36 @@ namespace WindowsFormsApp1
             this.checkBox9.Text = "牛肉";
             this.checkBox9.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // panel3
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(26, 96);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(48, 16);
-            this.checkBox10.TabIndex = 8;
-            this.checkBox10.Text = "羊肉";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.panel3.Controls.Add(this.checkBox15);
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.checkBox14);
+            this.panel3.Controls.Add(this.checkBox13);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(333, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(267, 450);
+            this.panel3.TabIndex = 3;
             // 
-            // checkBox11
+            // checkBox15
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(26, 118);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(48, 16);
-            this.checkBox11.TabIndex = 9;
-            this.checkBox11.Text = "鴨肉";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.Location = new System.Drawing.Point(26, 74);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(96, 16);
+            this.checkBox15.TabIndex = 13;
+            this.checkBox15.Text = "日式醃菜組合";
+            this.checkBox15.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // label3
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(26, 140);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(60, 16);
-            this.checkBox12.TabIndex = 10;
-            this.checkBox12.Text = "火雞肉";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(26, 29);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(84, 16);
-            this.checkBox13.TabIndex = 11;
-            this.checkBox13.Text = "季節炒時蔬";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(24, 13);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 12);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "配菜3";
             // 
             // checkBox14
             // 
@@ -276,77 +330,36 @@ namespace WindowsFormsApp1
             this.checkBox14.UseVisualStyleBackColor = true;
             this.checkBox14.CheckedChanged += new System.EventHandler(this.checkBox14_CheckedChanged);
             // 
-            // checkBox15
+            // checkBox13
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(26, 74);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(96, 16);
-            this.checkBox15.TabIndex = 13;
-            this.checkBox15.Text = "日式醃菜組合";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Location = new System.Drawing.Point(26, 29);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(84, 16);
+            this.checkBox13.TabIndex = 11;
+            this.checkBox13.Text = "季節炒時蔬";
+            this.checkBox13.UseVisualStyleBackColor = true;
             // 
-            // panel4
+            // label1
             // 
-            this.panel4.Controls.Add(this.checkBox19);
-            this.panel4.Controls.Add(this.checkBox18);
-            this.panel4.Controls.Add(this.checkBox17);
-            this.panel4.Controls.Add(this.checkBox16);
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 243);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(333, 207);
-            this.panel4.TabIndex = 11;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(24, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 12);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "主餐1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label4
+            // button1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 10);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 12);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "點心4";
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(26, 38);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(48, 16);
-            this.checkBox16.TabIndex = 13;
-            this.checkBox16.Text = "布丁";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(26, 60);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(48, 16);
-            this.checkBox17.TabIndex = 14;
-            this.checkBox17.Text = "奶酪";
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(26, 82);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(72, 16);
-            this.checkBox18.TabIndex = 15;
-            this.checkBox18.Text = "提拉米蘇";
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // checkBox19
-            // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(26, 104);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(84, 16);
-            this.checkBox19.TabIndex = 16;
-            this.checkBox19.Text = "熔岩巧克力";
-            this.checkBox19.UseVisualStyleBackColor = true;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button1.Location = new System.Drawing.Point(0, 220);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(333, 23);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "送出餐點";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form_panel
             // 
@@ -361,10 +374,10 @@ namespace WindowsFormsApp1
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -398,5 +411,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.CheckBox checkBox17;
         private System.Windows.Forms.CheckBox checkBox16;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }

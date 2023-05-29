@@ -31,5 +31,72 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string mainFood = "";//主食2
+            string mainMeal = "";//主餐1
+            string sideDish = "";//配菜3
+            string dessert = "";//點心4
+
+            foreach (Control c in panel2.Controls)
+            { 
+                if(c is CheckBox)
+                {
+                    if(((CheckBox)c).Checked == true)
+                    {
+                        mainFood += c.Text + " ";
+                    }
+                }
+            }
+
+            foreach (Control c in panel1.Controls)
+            {
+                if (c is CheckBox)
+                {
+                    if (((CheckBox)c).Checked == true)
+                    {
+                        mainMeal += c.Text + " ";
+                    }
+                }
+            }
+
+            foreach (Control c in panel3.Controls)
+            {
+                if (c is CheckBox)
+                {
+                    if (((CheckBox)c).Checked == true)
+                    {
+                        sideDish += c.Text + " ";
+                    }
+                }
+            }
+
+            foreach (Control c in panel4.Controls)
+            {
+                if (c is CheckBox)
+                {
+                    if (((CheckBox)c).Checked == true)
+                    {
+                        dessert += c.Text + " ";
+                    }
+                }
+            }
+
+            MessageBox.Show("主餐:"+ mainFood + "主食:" + mainMeal + "配菜:"+ sideDish + "點心:"+ dessert);
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
     }
 }
