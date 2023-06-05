@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;//0605添加
 
 namespace WindowsFormsApp1
 {
@@ -15,6 +16,12 @@ namespace WindowsFormsApp1
         public Form_panel()
         {
             InitializeComponent();
+            File.WriteAllText("Temp.txt","歡迎暗黑雙靈餐館\n");
+            File.AppendAllText("Temp.txt","我是第二行\n");
+            String input = File.ReadAllText("Temp.txt");
+            MessageBox.Show(input);
+
+
         }
 
         private void label2_Click(object sender, EventArgs e)
