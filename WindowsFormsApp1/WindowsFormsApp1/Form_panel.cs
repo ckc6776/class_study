@@ -20,6 +20,8 @@ namespace WindowsFormsApp1
             File.AppendAllText("Temp.txt","我是第二行\n");
             String input = File.ReadAllText("Temp.txt");
             MessageBox.Show(input);
+            if (!File.Exists("OrderData.csv"))
+                File.WriteAllText("OrderData.csv", "時間,主食,主餐,配菜,點心\n",Encoding.UTF8);
 
 
         }
@@ -90,12 +92,12 @@ namespace WindowsFormsApp1
                 }
             }
             //Environment.NewLine可以替代\n
-            MessageBox.Show("主餐:"+ mainFood + "\n主食:" + mainMeal + "\n配菜:"+ sideDish + "\n點心:"+ dessert);
+            //MessageBox.Show("主餐:"+ mainFood + "\n主食:" + mainMeal + "\n配菜:"+ sideDish + "\n點心:"+ dessert);
 
-
-
-
-
+            DateTime currentDateTime = DateTime.Now;
+            string formateDateTime = currentDateTime.ToString("G");
+            File.AppendAllText("OrderData.csv",formateDateTime+","+mainFood+","+mainMeal+","+sideDish+","+dessert);
+            MessageBox.Show("點餐成功");
 
 
 
