@@ -96,7 +96,7 @@ namespace WindowsFormsApp1
 
             DateTime currentDateTime = DateTime.Now;
             string formateDateTime = currentDateTime.ToString("G");
-            File.AppendAllText("OrderData.csv",formateDateTime+","+mainFood+","+mainMeal+","+sideDish+","+dessert);
+            File.AppendAllText("OrderData.csv",formateDateTime+","+mainFood+","+mainMeal+","+sideDish+","+dessert+"\n");
             MessageBox.Show("點餐成功");
 
 
